@@ -2,7 +2,7 @@
 
 This project compares the performance of three machine learning models. Convolutional Neural Networks (CNN), Decision Trees, and K-Nearest Neighbors (KNN), in classifying ECG (electrocardiogram) signals. The goal is to determine which model performs best on the ECG5000 dataset.
 
-[Read my full project report here!](ECG-Signal-Classification/Project_Report.pdf)
+[Read my full project report here!](https://github.com/geoffreycloud/ECG-Signal-Classification/blob/main/Project_Report.pdf)
 ### ECG5000 
 The original data set for *ECG5000* is a 20-hour long ECG downloaded from Physionet_ATM [1]. The database is BIDMC Congestive Heart Failure Database(chfdb) and the record is chf07. It was originally published by Goldberger et al. [2]. The data were pre-processed in two steps, first extracting each heartbeat and then making each heartbeat equal length using interpolation. These data were originally used by Chen et al. [3]. After that, 5000 heartbeats were randomly selected to make the current data set. Data were from a patient who has severe congestive heart failure. The class values were obtained by automated annotation.
 
